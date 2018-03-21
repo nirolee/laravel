@@ -29,5 +29,24 @@ class ArticleController extends Controller
             return redirect()->back()->withInput()->withErrors('报错失败');
         }
     }
+    public function edit(Request $request){
+        $this->validate($request, [
+           'title' => 'requird|unique:articles|max:255',
+            'body' => 'required',
+        ]);
+        $article = new Article;
+         Article::find($request->get('id'));
+        $article->title = $request->get('title');
+        $article->body = $request->get('body');
+        if($article->save()){
+            return redirect('admin/articles');
+        } else {
+            return redirect()->back()->withInput()->withErrors('报错失败');
+        }
+    }
+    public function destroy($id){
+        Article::find($id)->delete();
+        return redirect()->back()->withInput()->withErrors('删除成功');
+    }
     
 }
