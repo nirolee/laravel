@@ -18,7 +18,7 @@
                     @foreach ($articles as $article)
                         <hr>
                         <div class="article">
-                            <h4>{{ $article->title }}</h4>
+                            <h4><a href="{{url('admin/articles/'.$article->id)}}">{{ $article->title }}</a></h4>
                             <div class="content">
                                 <p>
                                     {{ $article->body }}
