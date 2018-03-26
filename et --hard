@@ -1,0 +1,83 @@
+warning: LF will be replaced by CRLF in composer.lock.
+The file will have its original line endings in your working directory.
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mindex b6a4b86..c2c06cd 100644[m
+[1m--- a/.gitignore[m
+[1m+++ b/.gitignore[m
+[36m@@ -10,3 +10,5 @@[m [mHomestead.yaml[m
+ npm-debug.log[m
+ yarn-error.log[m
+ .env[m
+[32m+[m[32mcomposer.lock[m
+[32m+[m[32mnbproject/private/private.xml[m
+[1mdiff --git a/composer.lock b/composer.lock[m
+[1mindex 68886cf..abe6124 100644[m
+[1m--- a/composer.lock[m
+[1m+++ b/composer.lock[m
+[36m@@ -3819,16 +3819,16 @@[m
+         },[m
+         {[m
+             "name": "symfony/thanks",[m
+[31m-            "version": "v1.0.6",[m
+[32m+[m[32m            "version": "v1.0.7",[m
+             "source": {[m
+                 "type": "git",[m
+                 "url": "https://github.com/symfony/thanks.git",[m
+[31m-                "reference": "9474ce305253c2f0bc20322ff8e9973cf25c9a94"[m
+[32m+[m[32m                "reference": "bade4992c46ed722162694b4af8d72f84402819a"[m
+             },[m
+             "dist": {[m
+                 "type": "zip",[m
+[31m-                "url": "https://files.phpcomposer.com/files/symfony/thanks/9474ce305253c2f0bc20322ff8e9973cf25c9a94.zip",[m
+[31m-                "reference": "9474ce305253c2f0bc20322ff8e9973cf25c9a94",[m
+[32m+[m[32m                "url": "https://files.phpcomposer.com/files/symfony/thanks/bade4992c46ed722162694b4af8d72f84402819a.zip",[m
+[32m+[m[32m                "reference": "bade4992c46ed722162694b4af8d72f84402819a",[m
+                 "shasum": ""[m
+             },[m
+             "require": {[m
+[36m@@ -3858,7 +3858,7 @@[m
+                 }[m
+             ],[m
+             "description": "Give thanks (in the form of a GitHub ⭐) to your fellow PHP package maintainers (not limited to Symfony components)!",[m
+[31m-            "time": "2018-02-02T13:47:40+00:00"[m
+[32m+[m[32m            "time": "2018-03-14T21:51:39+00:00"[m
+         },[m
+         {[m
+             "name": "theseer/tokenizer",[m
+[1mdiff --git a/nbproject/private/private.xml b/nbproject/private/private.xml[m
+[1mindex fc81674..6807a2b 100644[m
+[1m--- a/nbproject/private/private.xml[m
+[1m+++ b/nbproject/private/private.xml[m
+[36m@@ -2,16 +2,6 @@[m
+ <project-private xmlns="http://www.netbeans.org/ns/project-private/1">[m
+     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>[m
+     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">[m
+[31m-        <group>[m
+[31m-            <file>file:/E:/WWW/newlaravel/resources/views/admin/article/index.blade.php</file>[m
+[31m-            <file>file:/E:/WWW/newlaravel/app/Providers/RouteServiceProvider.php</file>[m
+[31m-            <file>file:/E:/WWW/newlaravel/resources/views/admin/home.blade.php</file>[m
+[31m-            <file>file:/E:/WWW/newlaravel/database/seeds/ArticleSeeder.php</file>[m
+[31m-            <file>file:/E:/WWW/newlaravel/config/app.php</file>[m
+[31m-            <file>file:/E:/WWW/newlaravel/database/seeds/DatabaseSeeder.php</file>[m
+[31m-            <file>file:/E:/WWW/newlaravel/routes/web.php</file>[m
+[31m-            <file>file:/E:/WWW/newlaravel/resources/views/home.blade.php</file>[m
+[31m-            <file>file:/E:/WWW/newlaravel/app/Http/Controllers/Admin/ArticleController.php</file>[m
+[31m-        </group>[m
+[32m+[m[32m        <group/>[m
+     </open-files>[m
+ </project-private>[m
+[1mdiff --git a/nbproject/project.xml b/nbproject/project.xml[m
+[1mdeleted file mode 100644[m
+[1mindex 05ea1cf..0000000[m
+[1m--- a/nbproject/project.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,9 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="UTF-8"?>[m
+[31m-<project xmlns="http://www.netbeans.org/ns/project/1">[m
+[31m-    <type>org.netbeans.modules.php.project</type>[m
+[31m-    <configuration>[m
+[31m-        <data xmlns="http://www.netbeans.org/ns/php-project/1">[m
+[31m-            <name>laravel</name>[m
+[31m-        </data>[m
+[31m-    </configuration>[m
+[31m-</project>[m
