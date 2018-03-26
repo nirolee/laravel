@@ -5,13 +5,14 @@
         <group>
             <file>file:/E:/WWW/newlaravel/resources/views/admin/article/index.blade.php</file>
             <file>file:/E:/WWW/newlaravel/app/Providers/RouteServiceProvider.php</file>
-            <file>file:/E:/WWW/newlaravel/resources/views/admin/home.blade.php</file>
+            <file>file:/E:/WWW/newlaravel/app/Http/Controllers/Admin/HomeController.php</file>
             <file>file:/E:/WWW/newlaravel/database/seeds/ArticleSeeder.php</file>
-            <file>file:/E:/WWW/newlaravel/config/app.php</file>
+            <file>file:/E:/WWW/newlaravel/app/Http/Controllers/HomeController.php</file>
+            <file>file:/E:/WWW/newlaravel/resources/views/admin/article/edit.blade.php</file>
+            <file>file:/E:/WWW/newlaravel/resources/views/admin/article/show.blade.php</file>
             <file>file:/E:/WWW/newlaravel/resources/views/admin/article/create.blade.php</file>
             <file>file:/E:/WWW/newlaravel/database/seeds/DatabaseSeeder.php</file>
             <file>file:/E:/WWW/newlaravel/routes/web.php</file>
-            <file>file:/E:/WWW/newlaravel/resources/views/home.blade.php</file>
             <file>file:/E:/WWW/newlaravel/app/Http/Controllers/Admin/ArticleController.php</file>
         </group>
     </open-files>

@@ -29,13 +29,12 @@ class ArticleController extends Controller
             return redirect()->back()->withInput()->withErrors('报错失败');
         }
     }
-    public function edit(Request $request){
-        $this->validate($request, [
-           'title' => 'requird|unique:articles|max:255',
-            'body' => 'required',
-        ]);
-        $article = new Article;
-         Article::find($request->get('id'));
+    public function edit($id){
+        return view('admin/article/edit')->withArticles(Article::find($id));
+    }
+    public function update(Request $request,$id){
+        $article =  Article::find($id);
+        
         $article->title = $request->get('title');
         $article->body = $request->get('body');
         if($article->save()){
@@ -47,6 +46,9 @@ class ArticleController extends Controller
     public function destroy($id){
         Article::find($id)->delete();
         return redirect()->back()->withInput()->withErrors('删除成功');
+    }
+    public function show($id){
+       return view('admin/article/show')->withArticles(Article::find($id));
     }
     
 }
