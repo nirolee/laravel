@@ -15,7 +15,10 @@
 //    return view('welcome');
 //});
 Route::get('/', 'HomeController@index')->name('home');
-
+Route::get('api/User',function(){
+   $user = new App\User;
+   return $user->signup();
+});
 Auth::routes();
 
 Route::group(['middleware' => 'auth', 'namespace' => 'Admin', 'prefix' => 'admin'], function() {
