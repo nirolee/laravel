@@ -9,6 +9,9 @@ use Request;
 class User extends Model
 {
     public function signup(){
-        return dd(Request::all());
+        $username = Request::get('name');
+        if(!($username || Request::get('password'))){
+            return ['status' => 0, 'messages'=> '密码或用户名不能为空' ];
+        }
     }
 }
