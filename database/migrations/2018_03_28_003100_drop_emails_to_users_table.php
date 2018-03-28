@@ -15,7 +15,7 @@ class DropEmailsToUsersTable extends Migration
     {
         Schema::table('users', function (Blueprint $table) {
             //
-            $table->dropUnique('email');
+            $table->dropUnique('users_email_unique');
             $table->dropColumn('email');
             $table->engine = 'InnoDB';
         });

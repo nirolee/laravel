@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Http\Request;
-
+use App\User;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -17,6 +17,10 @@ use Illuminate\Http\Request;
 //    return $request->user();
 //});
 Route::get('user',function(){
-   $user = new App\User;
+   $user = new User;
    return $user->signup();
+});
+Route::get('login',function(){
+    $user = new User;
+    return $user->login();
 });
