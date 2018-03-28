@@ -50,10 +50,14 @@ class User extends Model
     public function has_username_and_password(){
         $username = Request::get('username');
         $password = Request::get('password');
+        /*检查用户名和密码是否为空*/
         if($username && $password)
             return [$username,$password];
         return FALSE;
     }
-    
+    /*检查用户是否登陆*/
+    public function is_login() {
+        return session('user_id')?:false;
+    }
     
 }

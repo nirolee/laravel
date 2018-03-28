@@ -16,11 +16,12 @@ use App\User;
 //Route::middleware('auth:api')->get('/user', function (Request $request) {
 //    return $request->user();
 //});
+function user_ins(){
+    return new User;
+}
 Route::get('user',function(){
-   $user = new User;
-   return $user->signup();
+   return user_ins()->signup();
 });
 Route::get('login',function(){
-    $user = new User;
-    return $user->login();
+    return user_ins()->login();
 });
