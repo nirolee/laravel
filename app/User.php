@@ -43,8 +43,8 @@ class User extends Model
     }
     
     public function logout(){
-        session()->put('username','');
-        session()->put('user_id','');
+       session()->flush();
+       dd(session()->all());
     }
 
     public function has_username_and_password(){
@@ -57,7 +57,7 @@ class User extends Model
     }
     /*检查用户是否登陆*/
     public function is_login() {
-        return session('user_id')?:false;
+        return session('user_id') ?: false;
     }
     
 }

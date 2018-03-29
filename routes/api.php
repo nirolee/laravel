@@ -25,3 +25,9 @@ Route::get('user',function(){
 Route::get('login',function(){
     return user_ins()->login();
 });
+Route::get('logout',function(){
+    return user_ins()->logout();
+});
+Route::get('test',function(){
+    return user_ins()->is_login();
+});
