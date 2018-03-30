@@ -43,8 +43,8 @@ class User extends Model
     }
     
     public function logout(){
-       session()->flush();
-       dd(session()->all());
+       session()->forget('user_id');
+       return ['status' => 1];
     }
 
     public function has_username_and_password(){
