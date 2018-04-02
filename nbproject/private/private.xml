@@ -3,6 +3,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/E:/WWW/newlaravel/resources/views/admin/article/index.blade.php</file>
             <file>file:/E:/WWW/newlaravel/routes/api.php</file>
             <file>file:/E:/WWW/newlaravel/app/User.php</file>
@@ -12,6 +13,15 @@
             <file>file:/E:/WWW/newlaravel/resources/views/admin/article/show.blade.php</file>
             <file>file:/E:/WWW/newlaravel/resources/views/admin/article/create.blade.php</file>
             <file>file:/E:/WWW/newlaravel/routes/web.php</file>
+=======
+            <file>file:/D:/study/laravel/app/User.php</file>
+            <file>file:/D:/study/laravel/routes/web.php</file>
+            <file>file:/D:/study/laravel/database/migrations/2018_03_28_003100_drop_emails_to_users_table.php</file>
+            <file>file:/D:/study/laravel/app/Http/Controllers/Admin/ArticleController.php</file>
+            <file>file:/D:/study/laravel/app/Http/Controllers/Auth/RegisterController.php</file>
+            <file>file:/D:/study/laravel/database/migrations/2018_03_13_082553_create_article_table.php</file>
+            <file>file:/D:/study/laravel/routes/api.php</file>
+>>>>>>> 8f83461982e27540382b8555d44503096f8e5218
         </group>
     </open-files>
 </project-private>
