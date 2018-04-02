@@ -4,16 +4,14 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/E:/WWW/newlaravel/resources/views/admin/article/index.blade.php</file>
+            <file>file:/E:/WWW/newlaravel/routes/api.php</file>
             <file>file:/E:/WWW/newlaravel/app/User.php</file>
-            <file>file:/E:/WWW/newlaravel/config/session.php</file>
-            <file>file:/E:/WWW/newlaravel/app/Http/Controllers/Admin/HomeController.php</file>
-            <file>file:/E:/WWW/newlaravel/app/Http/Kernel.php</file>
             <file>file:/E:/WWW/newlaravel/app/Http/Controllers/HomeController.php</file>
+            <file>file:/E:/WWW/newlaravel/app/Question.php</file>
             <file>file:/E:/WWW/newlaravel/resources/views/admin/article/edit.blade.php</file>
             <file>file:/E:/WWW/newlaravel/resources/views/admin/article/show.blade.php</file>
             <file>file:/E:/WWW/newlaravel/resources/views/admin/article/create.blade.php</file>
             <file>file:/E:/WWW/newlaravel/routes/web.php</file>
-            <file>file:/E:/WWW/newlaravel/app/Http/Controllers/Admin/ArticleController.php</file>
         </group>
     </open-files>
 </project-private>
