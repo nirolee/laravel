@@ -59,5 +59,5 @@ class User extends Model
     public function is_login() {
         return session('user_id') ?: false;
     }
-    
+ 
 }

@@ -36,6 +36,9 @@ Route::get('user',function(){
 Route::get('login',function(){
     return user_ins()->login();
 });
+Route::get('test',function(){
+    return user_ins()->test();
+});
 Route::get('logout',function(){
     return user_ins()->logout();
 });

@@ -17,6 +17,10 @@
             url: '/login',
             templateUrl: 'login.tpl'
         })
+            .state('register',{
+                url:'/register',
+                tomplateUrl:'register.tpl'
+            })
     })
 //    .controller('TestController', function($scope){
 //        $scope.name = "niro";

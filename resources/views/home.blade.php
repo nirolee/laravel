@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh" ng-app="niro">
+<html lang="zh" >
     <head>
         <title>title</title>
         <meta charset="UTF-8">
@@ -10,20 +10,25 @@
         <script src="/js/base.js"></script>
         <link rel="stylesheet" href="/css/base.css"/>
     </head>
-    <body>
-        <div class="navbar">
+    <body ng-app="niro">
+        <div class="navbar clearfix">
             <div class="fl">
-                <div class="navbar-item">item1</div>
-                <div class="navbar-item">item2</div>
+                <div class="navbar-item brand">zhihu</div>
+                <div class="navbar-item">
+                    <input type="text">
+                </div>
             </div>
             <div class="fr">
-                <div class="navbar-item">item1</div>
-                <div class="navbar-item">item2</div>
-                <div class="navbar-item">item3</div>
+                <a ui-sref="home" class="navbar-item">首页</a>
+                <a ui-sref="register" class="navbar-item">注册</a>
+                <a ui-sref="login" class="navbar-item">登录</a>
             </div>
         </div>  
            <script type="text/ng-template" id="login.tpl">
           <h1>login</h1>
+        </script>
+        <script type="text/ng-template" id="register.tpl">
+            <label></label>
         </script>
         <script type="text/ng-template" id="home.tpl">
           <h1>home</h1>

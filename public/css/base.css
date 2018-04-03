@@ -4,6 +4,7 @@
 .fr {
     float: right;
 }
+.clearfix:after,
 .clearfix:before {
     content:"";
     clear: both;
@@ -11,8 +12,18 @@
 }
 .navbar-item {
     display: inline-block;
-    line-height: 1.5;
+    line-height: 2;
+    padding: 2px 4px;
 }
+.navbar-item :first-child{
+    margin-left: 4px;
+}
+
 .navbar {
     background: rgba(0,0,0, .1);
+}
+.brand{
+    font-size:25px;
+    font-weight: bold;
+    padding-left:15px;
 }
